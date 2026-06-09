@@ -1,6 +1,6 @@
 name: CI - Integrações Continuas
 
-on: pull request
+on: pull_request
 
 jobs:
   integracoes-continuas:
@@ -11,7 +11,7 @@ jobs:
     - name: Usando Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 22.x
+        node-version: 22.
     - name: Instalar, compilar e testar
       run: |
         npm install
