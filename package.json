@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "start": "ts-node src/models/Main.ts",
-    "dev": "ts-node src/models/Main.ts"
+    "dev": "ts-node src/models/Main.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",

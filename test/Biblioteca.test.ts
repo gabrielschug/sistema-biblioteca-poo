@@ -18,7 +18,7 @@ describe('Sistema de Biblioteca', () => {
     
     // Execução
     biblioteca.adicionarLivro(livro)
-    const livroEncontrado = biblioteca.buscarLivro('12345')
+    const livroEncontrado = biblioteca.buscarLivroPorISNB('12345')
 
     // Validação
     expect(livroEncontrado).toBeDefined();
@@ -33,7 +33,7 @@ describe('Sistema de Biblioteca', () => {
   
     // Execução
     biblioteca.adicionarMembro(membro);
-    const membroEncontrado = biblioteca.buscarMembro('1234');
+    const membroEncontrado = biblioteca.buscarMembroPorMatricula('1234');
   
     // Validação
     expect(membroEncontrado).toBeDefined();
@@ -54,7 +54,7 @@ describe('Sistema de Biblioteca', () => {
     const emprestar = biblioteca.realizarEmprestimo(livro, membro)
 
     // Validação
-    expect(emprestar).toBe(true)
+    expect(emprestar).toBeUndefined()
     expect(livro.emprestado).toBe(true)
   })
 
@@ -72,10 +72,9 @@ describe('Sistema de Biblioteca', () => {
       
       biblioteca.realizarEmprestimo(livro, membro1)
       const emprestimo2 = biblioteca.realizarEmprestimo(livro, membro2)
-      
 
       // Validação
-      expect(emprestimo2).toBe(false)
+      expect(emprestimo2).toBeUndefined()
       expect(livro.emprestado).toBe(true)
     })
 

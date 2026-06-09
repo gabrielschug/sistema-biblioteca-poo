@@ -19,5 +19,138 @@
     "_isbn": "12345",
     "_anoPublicacao": 2008,
     "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Bob",
+    "_isbn": "12345",
+    "_anoPublicacao": 1999,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": false
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
+  },
+  {
+    "_titulo": "Clean Code",
+    "_autor": "Robert Martin",
+    "_isbn": "12345",
+    "_anoPublicacao": 2008,
+    "_emprestado": true
   }
 ]
