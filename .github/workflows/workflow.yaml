@@ -12,4 +12,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 22.x
-      
+    - name: Instalar, compilar e testar
+      run: |
+        npm install
+        npm run build
+        npm run test
