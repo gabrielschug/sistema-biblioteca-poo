@@ -1,6 +1,8 @@
 name: CI -  Integrações Continuas
 
 on: 
+  push:
+    branches: ["main"]
   pull_request:
     branches: ["main"]
 
