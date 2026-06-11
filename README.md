@@ -5,6 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 ![Jest](https://img.shields.io/badge/Tests-Jest-C21325)
+![GitHub Actions](https://img.shields.io/badge/CI-Github%20Actions-%232671E5)
 
 ## 🚀 Sobre o Projeto
 
@@ -28,7 +29,7 @@ Para demonstrar domínio técnico, a arquitetura foi baseada em:
 * **Persistência:** Manipulação de arquivos do sistema (FileSystem) para gravação/leitura de dados em formato `.json`.
 * **Testes:** Jest para garantir que as regras de negócio (como "não emprestar livro já emprestado") funcionem perfeitamente.
 * **Interface:** Prompt-sync para interação via terminal.
-
+* **CI/CD:** GitHub Actions para execução automatizada dos testes implementados e build a cada novo commit na branch `main`.
 ---
 
 ## 📂 Funcionalidades Principais
@@ -38,6 +39,7 @@ Para demonstrar domínio técnico, a arquitetura foi baseada em:
 - [x] **Sistema de Empréstimos:** Registro de saída de livros vinculando-os a membros.
 - [x] **Devolução:** Atualização automática do status do livro e registro de data.
 - [x] **Persistência Automática:** Todos os dados são salvos na pasta `/dados` em arquivos JSON.
+- [x] **Integração Contínua (CI):** Pipeline automatizado garantindo que o código sempre compile e passe em todos os testes antes de ser integrado.
 
 ---
 
